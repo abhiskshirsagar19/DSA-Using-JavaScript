@@ -3,6 +3,6 @@
 const str = "This is the string.";
 let substr = str.substring(0, 19);
 let substr1 = str.substring(0, 50);
-let substr2 = str.substring(0, 5);
+let substr2 = str.substring(5, 0);
 
 console.log(substr, substr1, substr2);
