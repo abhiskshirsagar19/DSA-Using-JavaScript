@@ -44,7 +44,7 @@ Flow goes like when i = 0
                  
                when i = 2
                         ==> if(seen[arr[2]]) which is '5' and as seen is empty it considered and false.
-                        ==> Flow comes at else, so seen{} become seen{'2':true}
+                        ==> Flow comes at else, so seen{} become seen{'5':true}
                  
                when i = 3
                         ==> if(seen[arr[3]]) which is '1' and now the condition will get true .
